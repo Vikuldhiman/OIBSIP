@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(18, 16, 16, 0.5)50%,  rgba(0,0,0,0.5)50%), url(cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+.logo{
+    color: #60c9e6;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(39, 39, 88);
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 500px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid darkcyan;
+    margin-top: 13px;
+    color: #f1e6e6;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(241, 140, 58);
+    border: 2px solid rgb(26, 23, 26);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.par{
+    padding: 20px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .btnn{
+    width: 120px;
+    height: 40px;
+    font-weight: 100;
+    background: rgb(242, 132, 42);
+    border: 2px solid rgb(26, 23, 26);
+    margin-left: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .3s ease-in;
+    margin-bottom: 40px;
+}
+ .btnn:hover{
+    color: rgb(20, 93, 93);
+    font-size: 20px;
+ }
+ .form{
+    margin-left: 90px;
+    width: 86%;
+    height: 150px;
+    background: linear-gradient(to top, rgba(11, 11, 11, 0.8)50%,rgba(12, 12, 12, 0.8)50%);
+    position: absolute;
+   padding-left: 10px;
+ }
+ .form h2{
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(86, 104, 239);
+    font-size: 20px;
+    background-color: #dcd5d5;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    margin-left: 400px;
+    margin-bottom: 5px;
+ }
+ .form input{
+    margin-left: 40px;
+    background: aliceblue;
+    border-radius: 5px;
+    width: 240px;
+    height: 30px;
+    border: 2px solid black;
+ }
+ .form .btnnn{
+    width: 150px;
+    height: 30px;
+    background:#60c9e6;
+    border: 2px solid rgb(26, 23, 26);
+    margin-left: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.4s ease;
+ }
+ .btnnn:hover{
+    background: #fff;
+ }
+ .form .link{
+    color: #fff;
+    width: 100%;
+    margin-left: 40%;
+    padding: 5px;
+    font-size: 20px;
+ }
+ .form a{
+    color: #fff;
+    width: 100%;
+    margin-left: 45%;
+ }
